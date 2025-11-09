@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root{
-  background-color:rgb(29,28,34) ;
+  background-color: #101828 ;
   font-family: "Roboto Mono", monospace;
   color: white;
   font-optical-sizing: auto;

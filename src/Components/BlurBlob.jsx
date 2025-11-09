@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const BlurBlob = ({ position, size }) => {
+const BlurBlob = ({ position, size, color }) => {
   const { top, left } = position;
   const { width, height } = size;
 
   return (
     <div
-      className="absolute bordeer-2 border-white"
+      className="absolute"
       style={{
         top: top,
         left: left,
@@ -16,7 +16,10 @@ const BlurBlob = ({ position, size }) => {
         transform: "translate(-50%, -50%)",
       }}
     >
-      <div className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-blob"></div>
+      <div
+        className="w-full h-full rounded-full opacity-20 blur-3xl animate-blob"
+        style={{ backgroundColor: color || "#a855f7" }}
+      ></div>
     </div>
   );
 };
@@ -31,12 +34,14 @@ BlurBlob.propTypes = {
     width: PropTypes.string,
     height: PropTypes.string,
   }),
+  color: PropTypes.string,
 };
 
 // Default props
 BlurBlob.defaultProps = {
   position: { top: "50%", left: "50%" },
   size: { width: "150px", height: "150px" },
+  color: "#a855f7",
 };
 
 export default BlurBlob;
