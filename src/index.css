@@ -9,3 +9,25 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+@keyframes blob {
+  0%   { transform: scale(1); }
+  33%  { transform: scale(1.2); }
+  66%  { transform: scale(0.8); }
+  100% { transform: scale(1); }
+}
+
+/* ------------------------- */
+/* 2️⃣ Create custom utility for animation */
+/* ------------------------- */
+@utility animate-blob {
+  animation: blob 10s infinite ease-in-out;
+}
+
+@utility animate-blob-fast {
+  animation: blob 6s infinite ease-in-out;
+}
+
+@utility animate-blob-slow {
+  animation: blob 14s infinite ease-in-out;
+}
