@@ -5,15 +5,16 @@ import Footer from './Footer';
 
 const RootLayout = () => {
     return (
-        <div className=' relative container mx-auto' >
-            <div className='fixed top-0 left-0 '></div>
-            <Navbar></Navbar>
-            <div className='pt-20 container mx-auto min-h-screen '>
-            <Outlet></Outlet>
+        <div className="relative">
+            <Navbar />
+            {/* Push content below fixed navbar */}
+            <div className="pt-24 container mx-auto min-h-screen">
+                <Outlet />
             </div>
-            <Footer></Footer>
+            <Footer />
         </div>
     );
 };
+
 
 export default RootLayout;
