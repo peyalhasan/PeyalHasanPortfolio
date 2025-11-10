@@ -20,7 +20,7 @@ const Home = () => {
       />
 
       {/* About content aligned top-left */}
-      <div className="relative z-10 px-8 pt-24">
+      <div className="relative z-10 px-8 pt-10 md:pt-24">
         <About></About>
       </div>
     </div>
