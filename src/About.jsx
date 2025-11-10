@@ -28,18 +28,24 @@ const About = () => {
             loop={0}
             cursor
             cursorStyle="_"
-            typeSpeed={100}
+            typeSpeed={150}
             deleteSpeed={50}
             delaySpeed={1500}
           />
         </h3>
 
         {/* Optional Description */}
-        <p className="text-white text-base sm:text-lg md:text-xl mt-4 leading-relaxed">
+        <p className="text-white md:w-1/2 text-base sm:text-lg md:text-xl mt-4 leading-relaxed">
           I create responsive and user-friendly web applications with modern
           technologies. Passionate about clean UI, efficient code, and
           continuous learning.
         </p>
+        <a href="" target="_blank" rel="noopener norefrre" 
+        className=" inline-block pt-1 hover:text-green-600 items-center  px-8 rounded-full mt-5 text-xl font-bold transition duration-300  transform hover:scale-105 btn btn-outline btn-success text-white bg-[rgb(29,28,30)] hover:bg-[#101828] "
+        >Download CV / Resume</a>
+      </div>
+      <div>
+
       </div>
     </section>
   );

@@ -39,8 +39,8 @@ BlurBlob.propTypes = {
 
 // Default props
 BlurBlob.defaultProps = {
-  position: { top: "50%", left: "50%" },
-  size: { width: "150px", height: "150px" },
+  position: { top: "50%", left: "55%" },
+  size: { width: "120px", height: "120px" },
   color: "#a855f7",
 };
 

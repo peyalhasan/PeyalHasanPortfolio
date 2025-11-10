@@ -9,7 +9,7 @@ const Home = () => {
     <div className="relative w-full min-h-screen overflow-hidden">
       {/* Animated blobs */}
       <BlurBlob
-        position={{ top: "35%", left: "30%" }}
+        position={{ top: "35%", left: "35%" }}
         size={{ width: "35%", height: "40%" }}
         color="#22d3ee"
       />
