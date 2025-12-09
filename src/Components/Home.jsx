@@ -1,7 +1,5 @@
-// Home.jsx
-import React from "react";
 import BlurBlob from "./BlurBlob";
-import About from "../About";
+import Hero from "../Hero";
 
 
 const Home = () => {
@@ -21,7 +19,7 @@ const Home = () => {
 
       {/* About content aligned top-left */}
       <div className="relative z-10 px-8 pt-10 md:pt-24">
-        <About></About>
+        <Hero />
       </div>
     </div>
   );

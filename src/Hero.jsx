@@ -1,9 +1,8 @@
-// About.jsx
-import React from "react";
+
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
 
-const About = () => {
+const Hero = () => {
   return (
     <section id="about" className="w-full flex flex-col-reverse md:flex-row gap-10">
       <div className="max-w-4xl w-full text-left">
@@ -63,4 +62,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Hero;
