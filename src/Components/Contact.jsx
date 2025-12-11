@@ -124,7 +124,7 @@ const Contact = () => {
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-1">Email</h4>
                       <a 
-                        href="mailto:shaoynthassan@gmail.com" 
+                        href="mailto:peyalhasan143@gmail.com" 
                         className="text-gray-300 hover:text-green-500 transition-colors duration-200 break-all"
                       >
                         peyalhasan143@gmail.com
@@ -198,7 +198,7 @@ const Contact = () => {
             Ready to start your project?
           </p>
           <a
-            href="mailto:shaoynthassan@gmail.com"
+            href="mailto:peyalhasan143@gmail.com"
             className="inline-flex items-center gap-2 bg-transparent border-2 border-green-500 text-green-500 px-8 py-3 rounded-full font-bold hover:bg-green-500 hover:text-gray-900 transition-all duration-300 transform hover:scale-105"
           >
             <FaEnvelope />
