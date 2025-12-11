@@ -7,7 +7,7 @@ function Resume() {
     const ResumeMenu = (
         <>
 
-            <NavLink to="about" end>
+            <NavLink to="" end>
                 {({ isActive }) => (
                     <li className={`w-80 transition-all duration-100 list-none border-2 border-green-500 px-25 py-3 rounded-2xl text-xl font-semibold 
             ${isActive ? 'text-black bg-green-500' : 'hover:text-[#3BB77E] hover:scale-105'}`}>
