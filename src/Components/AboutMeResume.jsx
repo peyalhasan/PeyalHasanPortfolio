@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 function AboutMeResume() {
-    // অ্যানিমেশন ভেরিয়েন্ট
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {

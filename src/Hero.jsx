@@ -1,7 +1,7 @@
 
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
-import PeyalHasanResume from './assets/Peyal Hasan Resume.pdf'
+import PeyalHasanResume from './assets/PeyalHasanResume.pdf'
 
 const Hero = () => {
   return (
@@ -41,7 +41,7 @@ const Hero = () => {
           technologies. Passionate about clean UI, efficient code, and
           continuous learning.
         </p>
-        <a href={PeyalHasanResume} download="Peyal_Hasan_Resume.pdf" target="_blank" rel="noopener norefrre" 
+        <a href={PeyalHasanResume} download="PeyalHasanResume.pdf" target="_blank" rel="noopener norefrre" 
         className=" inline-block pt-1 hover:text-green-600 items-center  px-8 rounded-full mt-5 text-xl font-bold transition duration-300  transform hover:scale-105 btn btn-outline btn-success text-white bg-[rgb(29,28,30)] hover:bg-[#101828] "
         >Download CV / Resume</a>
       </div>
