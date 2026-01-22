@@ -5,8 +5,24 @@ import { SiTailwindcss, SiMongodb, SiExpress, SiJson } from "react-icons/si";
 import BlurBlob from '../Components/BlurBlob';
 
 const projects = [
-    {
+     {
         id: 1,
+        title: "🌍 Xplora - Adventure & Tourism",
+        description: "Xplora is a premium travel platform designed for modern explorers. It offers seamless destination discovery, smart search filtering, and an immersive user experience for planning your next journey.",
+        image: "https://github.com/peyalhasan/Xplora/blob/main/src/assets/Xplora.png",
+        technologies: ["React", "Tailwind CSS", "React Query", "Axios", "Framer Motion", "Firebase"],
+        githubLink: "https://github.com/peyalhasan/Xplora",
+        liveLink: "https://xplora-s.vercel.app", 
+        features: [
+        "Smart Debounced Search", 
+        "Efficient Data Caching with React Query", 
+        "Smooth Framer Motion Animations", 
+        "Responsive Glassmorphism UI",
+        "Secure Firebase Authentication"
+    ]
+    },
+    {
+        id: 2,
         title: "Weather Dashboard 🌤️",
         description: "A responsive web application built with React.js that provides current weather information and forecasts for major world capitals. Users can search for weather data by entering city names.",
         image: "https://github.com/peyalhasan/Weather-Dashboard/raw/main/Weather-Dashboard.png",
@@ -14,16 +30,6 @@ const projects = [
         githubLink: "https://github.com/peyalhasan/Weather-Dashboard",
         liveLink: "https://weather-dashboard-peyal.vercel.app/",
         features: ["Real-time API", "Favorite Cities", "Local Storage"]
-    },
-    {
-        id: 2,
-        title: "🚀 TechHub - Gadget Shop",
-        description: "TechHub is a premium e-commerce platform for tech enthusiasts. It features a dynamic product showcase and seamless cart management. [Note: Requires Local JSON Server to fetch data].",
-        image: 'https://raw.githubusercontent.com/peyalhasan/TechHub/main/TechBoard.png',
-        technologies: ["React", "Tailwind CSS", "Context API", 'Local JSON'],
-        githubLink: "https://github.com/peyalhasan/TechHub",
-        liveLink: "https://github.com/peyalhasan/TechHub#readme", 
-        features: ["Dynamic Product Filtering", "Interactive Cart System", "Local Storage Persistence", "Responsive Layout"]
     },
     {
         id: 3,
