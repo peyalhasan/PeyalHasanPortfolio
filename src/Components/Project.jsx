@@ -9,7 +9,7 @@ const projects = [
         id: 1,
         title: "🌍 Xplora - Adventure & Tourism",
         description: "Xplora is a premium travel platform designed for modern explorers. It offers seamless destination discovery, smart search filtering, and an immersive user experience for planning your next journey.",
-        image: 'https://github.com/peyalhasan/Xplora/blob/main/src/assets/Xplora.png',
+        image: "https://github.com/peyalhasan/Xplora/blob/main/src/assets/Xplora.png",
         technologies: ["React", "Tailwind CSS", "React Query", "Axios", "Framer Motion", "Firebase"],
         githubLink: "https://github.com/peyalhasan/Xplora",
         liveLink: "https://xplora-s.vercel.app", 
