@@ -1,7 +1,7 @@
 
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
-import PeyalHasanResume from './assets/PeyalHasanResume.pdf'
+import PeyalHasanResume from './assets/Peyal Hasan Resume.pdf'
 
 const Hero = () => {
   return (
