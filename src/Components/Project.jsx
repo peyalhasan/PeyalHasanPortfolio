@@ -7,27 +7,22 @@ import Safariz from '/Safariz.png'
 import NoirEvents from '/Noir Events.png'
 
 const projects = [
-     {
+    {
         id: 1,
         title: "🌍 Xplora - Adventure & Tourism",
-        description: "Xplora is a premium travel platform designed for modern explorers. It offers seamless destination discovery, smart search filtering, and an immersive user experience for planning your next journey.",
-        image: "https://github.com/peyalhasan/Xplora/blob/main/src/assets/Xplora.png",
+        description: "Xplora is a premium travel platform...",
+        // GitHub raw link use kora hoyeche jate image load hoy
+        image: "https://raw.githubusercontent.com/peyalhasan/Xplora/main/src/assets/Xplora.png",
         technologies: ["React", "Tailwind CSS", "React Query", "Axios", "Framer Motion", "Firebase"],
         githubLink: "https://github.com/peyalhasan/Xplora",
         liveLink: "https://xplora-s.vercel.app", 
-        features: [
-        "Smart Debounced Search", 
-        "Efficient Data Caching with React Query", 
-        "Smooth Framer Motion Animations", 
-        "Responsive Glassmorphism UI",
-        "Secure Firebase Authentication"
-    ]
+        features: ["Smart Debounced Search", "Efficient Data Caching", "Smooth Animations"]
     },
     {
         id: 2,
         title: "Safariz ✈️",
-        description: "Safariz is a modern, AI-powered travel planning application designed to turn your travel dreams into detailed itineraries in seconds. By leveraging the power of the Gemini API and MongoDB Atlas, Safariz provides a seamless experience for travelers to discover destinations, manage budgets, and visualize their trips through high-quality imagery. ",
-        image: {Safariz},
+        description: "Safariz is a modern, AI-powered travel planning application...",
+        image: Safariz, // Object bracket {} soriye deya hoyeche
         technologies: ["React", "JavaScript" , "Tailwind CSS","Gimini API", "Unsplash API", "MongoDb Atlas"],
         githubLink: "https://github.com/peyalhasan/Safariz",
         liveLink: "https://safariz.vercel.app",
@@ -36,18 +31,18 @@ const projects = [
     {
         id: 3,
         title: "NOIR EVENTS",
-        description: "A modern event discovery and management platform built with Next.js, allowing users to explore, register, and manage events seamlessly.",
-        image: {NoirEvents},
+        description: "A modern event discovery and management platform...",
+        image: NoirEvents, // Object bracket {} soriye deya hoyeche
         technologies: ["Next.js", "Google Map API", 'Tailwind CSS', "Resend Mail"],
         githubLink: "https://github.com/peyalhasan/NOIR-EVENTS",
         liveLink: "https://noir-events.vercel.app",
-        features: ["User Registration", "Interactive Maps", "Email Notifications", 'SEO Optimized:']
+        features: ["User Registration", "Interactive Maps", "Email Notifications"]
     },
     {
         id: 4,
         title: "📱 UBreakiFix.Net",
-        description: "UBreakiFix.Net is a modern, high-performance web application designed for device repair stores to manage customer bookings, track repair statuses, and maintain client profiles. It features a sleek, dark-themed dashboard built for speed and responsiveness.",
-        image: "https://github.com/peyalhasan/UBreakiFix.Net/blob/main/public/UBreakiFix.png",
+        description: "UBreakiFix.Net is a modern, high-performance web application...",
+        image: "https://raw.githubusercontent.com/peyalhasan/UBreakiFix.Net/main/public/UBreakiFix.png",
         technologies: ["React.js", "React Hook Form", "Context API"],
         githubLink: "https://github.com/peyalhasan/UBreakiFix.Net",
         liveLink: "https://u-breaki-fix-net.vercel.app/",
