@@ -3,6 +3,8 @@ import { motion } from 'motion/react';
 import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs, FaDatabase, FaCode } from "react-icons/fa";
 import { SiTailwindcss, SiMongodb, SiExpress, SiJson } from "react-icons/si";
 import BlurBlob from '../Components/BlurBlob';
+import Safariz from '/Safariz.png'
+import NoirEvents from '/Noir Events.png'
 
 const projects = [
      {
@@ -23,33 +25,33 @@ const projects = [
     },
     {
         id: 2,
-        title: "Weather Dashboard 🌤️",
-        description: "A responsive web application built with React.js that provides current weather information and forecasts for major world capitals. Users can search for weather data by entering city names.",
-        image: "https://github.com/peyalhasan/Weather-Dashboard/raw/main/Weather-Dashboard.png",
-        technologies: ["React", "JavaScript" , "Tailwind CSS"],
-        githubLink: "https://github.com/peyalhasan/Weather-Dashboard",
-        liveLink: "https://weather-dashboard-peyal.vercel.app/",
-        features: ["Real-time API", "Favorite Cities", "Local Storage"]
+        title: "Safariz ✈️",
+        description: "Safariz is a modern, AI-powered travel planning application designed to turn your travel dreams into detailed itineraries in seconds. By leveraging the power of the Gemini API and MongoDB Atlas, Safariz provides a seamless experience for travelers to discover destinations, manage budgets, and visualize their trips through high-quality imagery. ",
+        image: {Safariz},
+        technologies: ["React", "JavaScript" , "Tailwind CSS","Gimini API", "Unsplash API", "MongoDb Atlas"],
+        githubLink: "https://github.com/peyalhasan/Safariz",
+        liveLink: "https://safariz.vercel.app",
+        features: ["Check Prompt", "Generate Plan Data", "Save at MongoDB"]
     },
     {
         id: 3,
-        title: "🐾 Pawtopia",
-        description: "The ultimate pet care and adoption platform! Whether you're looking to adopt a furry friend or find reliable services, Pawtopia has got you covered.",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHk24PsVeRTsQN1-LZcssTKdx61QOxzGXng&s",
-        technologies: ["JavaScript", "CSS3", "HTML5"],
-        githubLink: "https://github.com/peyalhasan/Pawtopia",
-        liveLink: "https://pawtopia-delta.vercel.app/",
-        features: ["Pet Adoption", "Community Forum", "Pet Profiles"]
+        title: "NOIR EVENTS",
+        description: "A modern event discovery and management platform built with Next.js, allowing users to explore, register, and manage events seamlessly.",
+        image: {NoirEvents},
+        technologies: ["Next.js", "Google Map API", 'Tailwind CSS', "Resend Mail"],
+        githubLink: "https://github.com/peyalhasan/NOIR-EVENTS",
+        liveLink: "https://noir-events.vercel.app",
+        features: ["User Registration", "Interactive Maps", "Email Notifications", 'SEO Optimized:']
     },
     {
         id: 4,
-        title: "📱 Phone Hunter",
-        description: "Search for mobile phones and view detailed specifications. It uses an external API to fetch phone data in a user-friendly interface.",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3HmdVUr0hL1qj4sx4-2IzIQaWPmIfpha7w&s",
-        technologies: ["Tailwind CSS", "JavaScript", "API Fetch"],
-        githubLink: "https://github.com/peyalhasan/Phone-Hunter",
-        liveLink: "https://peyalhasan.github.io/Phone-Hunter/",
-        features: ["Spec Search", "Modern UI", "API Integration"]
+        title: "📱 UBreakiFix.Net",
+        description: "UBreakiFix.Net is a modern, high-performance web application designed for device repair stores to manage customer bookings, track repair statuses, and maintain client profiles. It features a sleek, dark-themed dashboard built for speed and responsiveness.",
+        image: "https://github.com/peyalhasan/UBreakiFix.Net/blob/main/public/UBreakiFix.png",
+        technologies: ["React.js", "React Hook Form", "Context API"],
+        githubLink: "https://github.com/peyalhasan/UBreakiFix.Net",
+        liveLink: "https://u-breaki-fix-net.vercel.app/",
+        features: ["Modern Dashboard", "Modern UI", "Client Management"]
     },
 ];
 

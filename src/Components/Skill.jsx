@@ -7,6 +7,7 @@ import {
     SiFigma, SiPostman, SiVercel 
 } from 'react-icons/si';
 import { VscVscode } from "react-icons/vsc";
+import { DiMongodb } from 'react-icons/di';
 
 const skillCategories = [
     {
@@ -29,6 +30,8 @@ const skillCategories = [
             { name: "JWT", icon: <SiJsonwebtokens className="text-pink-500" /> },
             { name: "MUI", icon: <SiMui className="text-blue-600" /> },
             { name: "Framer", icon: <SiFramer className="text-white" /> },
+            { name: "MongoDB", icon: <DiMongodb className="text-green-500" /> },
+            
         ]
     },
     {
